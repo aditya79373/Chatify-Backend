@@ -56,9 +56,4 @@ Copy `.env.example` to `.env` and fill in your own values.
 
 Never commit `.env` (keep it in `.gitignore`). These values are secrets: anyone who has them can use your database, email and cloud accounts.
 
-## Deployment
 
-1. Create a new web service from this repository (for example on Render).
-2. Build command: `npm install`. Start command: `node server.js`.
-3. Add every variable from the table above in the service's environment settings.
-4. Allow your frontend's URL in the server's CORS settings.
